@@ -1,10 +1,12 @@
 Team E - Udemy Courses - README
 
-Team members : Ardeshir Shojaei (Lead Programmer), Vishwaja Manda, Judith Fernando
+E-Udemy-App is a prototype created to search, sort, filter, and analyze the selected Udemy courses dataset.
+This has been created as a part of MSc Data Science-Python assignment.
 
 Dataset Source : https://www.kaggle.com/datasets/thedevastator/udemy-courses-revenue-generation-and-course-anal
 
 The following libraries are required for this project:
+
 - matplotlib.pyplot : Matplotlib is a comprehensive library for creating static, animated,and interactive visualizations in Python
 - pandas : It is built on top of another package named Numpy, which provides support for multi-dimensional arrays.
     Ex.Data cleansing,Data fill Data normalization Merges and joins Data visualization Statistical analysis Data inspection Loading and saving data And much more.
@@ -20,8 +22,8 @@ File Structure:
 Dataset: Entry Level Project Sheet - 3.1-data-sheet-udemy-courses-web-development.csv
 This UDEMY COURSE dataset has details of four different subjects including, Web development, Music, Graphic Design and Business Courses.
 
-E-Udemy-App is a prototype created to search, sort, filter, and analyze the selected Udemy courses dataset.
-This has been created as a part of MSc Data Science-Python assignment.
+Team members :
+Ardeshir Shojaei (Lead Programmer), Vishwaja Manda, Judith Fernando
 
 Set up Task:
 - You should import "import_ipynb" into "main.ipynb" and install it in terminal using the following command => !pip install import_ipynb
