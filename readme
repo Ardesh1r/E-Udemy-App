@@ -1,0 +1,88 @@
+Team E - Udemy Courses - README
+
+Team members : Ardeshir Shojaei, Vishwaja Manda, Judith Fernando,
+
+Dataset Source : https://www.kaggle.com/datasets/thedevastator/udemy-courses-revenue-generation-and-course-anal
+
+The following libraries are required for this project:
+- matplotlib.pyplot : Matplotlib is a comprehensive library for creating static, animated,and interactive visualizations in Python
+- pandas : It is built on top of another package named Numpy, which provides support for multi-dimensional arrays.
+    Ex.Data cleansing,Data fill Data normalization Merges and joins Data visualization Statistical analysis Data inspection Loading and saving data And much more.
+- seaborn : seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics for random statistical representation.
+- sqlite3 : SQLite3 module is used to integrate the SQL database with python, a standardised python DBI API 2.0
+- import_ipynb : It defines notebook loader that allows to iimport other ipynd files into your current ipynd file. 
+
+File Structure:
+- main.ipynb : main file and includes all the classes
+- db_connection.ipynb : database file and establishing connection with database
+- db.db : database file and the table
+
+Dataset: Entry Level Project Sheet - 3.1-data-sheet-udemy-courses-web-development.csv
+This UDEMY COURSE dataset has details of four different subjects including, Web development, Music, Graphic Design and Business Courses.
+
+E-Udemy-App is a prototype created to search, sort, filter, and analyze the selected Udemy courses dataset.
+This has been created as a part of MSc Data Science-Python assignment.
+
+Set up Task:
+- You should import "import_ipynb" into "main.ipynb" and install it in terminal using the following command => !pip install import_ipynb
+
+How E-Udemy-App works:
+
+- Step 1:
+--Download "E-Udemy-App.zip" folder and extract
+
+- Step 2:
+--import import_ipynb => !pip install import_ipynb
+
+- Step 3:
+--Open "main.ipynb" file and run it in Jupyter notebook.
+
+- Step 4:
+--register with your name and email to use the application.
+
+- Step 5:
+--The app asks "what do you want?" and the user have 2 options.
+---1) Search, Sort, Filter Courses
+---2) Analyze Courses
+
+- Step 6-1:
+--If the user press 1, in this case, the app displays 9 functions and the user can press from 1 to 9 to use the app features or press 10 to back to the previous menu. Functions are:
+--- 1 : Search Course by Course_id 
+--- 2 : Search Course by Keyword 
+--- 3 : Search Course by Url 
+--- 4 : Search Course by Level 
+--- 5 : Sort Courses by Subscibers 
+--- 6 : Sort Courses by Reviews 
+--- 7 : Sort Courses by Rating 
+--- 8 : Sort Courses by Date 
+--- 9 : Filter Courses by Pricing 
+--- 10 : Back to the Previous Menu 
+
+- Step 6-2:
+--If the user press 2, in this case, the app displays 20 functions and the user can press from 1 to 20 to use the app features or press 21 to back to the previous menu. Functions are:
+ --- 1 : Primitive Analysis 
+ --- 2 : Level vs Price 
+ --- 3 : Num_subscribers vs Num_reviews
+ --- 4 : Num_subscribers vs Num_lectures 
+ --- 5 : Num_reviews vs Rating 
+ --- 6 : Content_duration vs Rating
+ --- 7 : Content_duration vs Num_reviews 
+ --- 8 : Price vs Num_subscribers 
+ --- 9 : Price vs Num_reviews 
+ --- 10 : Price vs Num_lectures 
+ --- 11 : Price vs Rating 
+ --- 12 : Price vs Content_duration
+ --- 13 : Num_reviews vs Num_lectures 
+ --- 14 : Num_reviews vs Level 
+ --- 15 : Num_lectures vs Level
+ --- 16 : Num_lectures vs Rating 
+ --- 17 : Num_lectures vs Content_duration 
+ --- 18 : Level vs Content_duration
+ --- 19 : Level vs Rating 
+ --- 20 : Num_courses_vs_Subject_area 
+ --- 21 : back to the previous menu
+
+
+
+
+
